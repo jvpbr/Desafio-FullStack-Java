@@ -39,7 +39,7 @@ export class CadastroPaisesComponent implements OnInit {
 
 	salvar(){
 		if (this.validarRegistro()){
-			if (this.idPais === null){
+			if (this.idPais === null || this.idPais === ""){
 				this.enviarPost()
 			} else {
 				this.enviarPut()
