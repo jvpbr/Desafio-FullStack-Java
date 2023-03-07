@@ -43,7 +43,6 @@ const routes: Routes = [
       },
       {
         path: 'cadastro',
-        pathMatch: 'full',
         children:[
           {
             path: '',
